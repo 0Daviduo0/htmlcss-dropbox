@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    #navlogo{
+        margin-left: 20px;
+    }
+
+    .navrow{
+        display: flex;
+        align-items: center;
+    }
+
+        .navobject{
+            margin: 0  20px;
+        }
+
+    #begin{
+        background-color: #005aff;
+        color: #fff;
+        padding: 10px 20px;
+        margin-left: -5px;
+    }
+    
