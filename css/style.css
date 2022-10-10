@@ -154,6 +154,51 @@
                     width: calc((100% - 100px) / 3);
                     height: 700px;
                     border: #000 solid 1px;
+                    display: flex;
+                    flex-direction: column;
                 }
 
-    
+                    .cardtitle{
+                        padding: 3% 0;
+                        width: 100%;
+                        text-align: center;
+                        border-bottom: #000 solid 1px;
+                    }
+
+                        .cardicon{
+                            padding-right: 5px;
+                        }
+
+                    .productcardinner{
+                        width: 80%;
+                        height: 400px;          /* Debug */
+                        margin-left: 10%;
+                        margin-top: 12%;
+                        margin-bottom: 12%;
+                        border: red solid 1px;
+                    }
+
+                        .productname{
+                            font-size: 20px;
+                            margin-bottom: 4%;
+                        }
+
+                        .productprice{
+                            font-weight: bold;
+                            margin-bottom: 2%;
+                        }
+
+                        .user-timespan{
+                            color: grey;
+                            margin-bottom: 15%;
+                        }
+
+                        .cardinfocontainer{
+                            display: flex;
+                            margin-bottom: 6%
+
+                        }
+
+                            .cardinfo{
+                                ;
+                            }
