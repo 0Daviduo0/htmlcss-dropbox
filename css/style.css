@@ -171,7 +171,7 @@
 
                     .productcardinner{
                         width: 80%;
-                        height: 400px;          /* Debug */
+                        height: 800px;          /* Debug */
                         margin-left: 10%;
                         margin-top: 12%;
                         margin-bottom: 12%;
@@ -199,6 +199,12 @@
 
                         }
 
-                            .cardinfo{
-                                ;
+                            #cardtrial{
+                                margin-top: 15%;
+                                width: 100%;
+                                text-align: center;
+                            }
+
+                            .paynow{
+                                margin-top: 8%;
                             }
