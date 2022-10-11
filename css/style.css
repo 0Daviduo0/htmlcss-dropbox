@@ -367,7 +367,22 @@
 }
 
     .macroblock{
+        display: flex;
+        flex-direction: column;
         width: calc((100% / 3));
         height: 500px;
         border: #000 solid 1px;
     }
+
+        .brandsrow{
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            
+        }
+
+            .brandsblocks{
+                width: calc(100% / 2);
+                height: 200px;
+                border: #000 solid 1px;
+            }
