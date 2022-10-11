@@ -321,6 +321,7 @@
 #featurestitle{
     margin-bottom: 0;
 }
+
 .featuregallery{
     display: flex;
     justify-content: space-between;
@@ -404,7 +405,6 @@
     display: flex;
     justify-content: space-between;
     height: fit-content;
-    border: blueviolet solid 3px;
     margin-left: 0%;
     margin-right: 0%;
 }
@@ -425,12 +425,55 @@
         }
 
             .brandsblocks{
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 width: calc(100% / 2);
-                height: 200px;
+                height: 300px;
                 border: #000 solid 1px;
+                position: relative;
             }
 
-                .brandcontent{
+            .bandsimg{
+                max-width: 70%;
+                max-height: 70%;
+                
+            }
+
+                #block1{
+                    background-color: #a2d39b;
+                    
+                }
+
+                #block2{
+                    background-color: #61082b;
+                }
+
+                #block3{
+                    background-color: #0093ce;
+                }
+
+                #block4{
+                    background-color: #ff1c1c;
+                }
+
+                #block5{
+                    background-color: #d5001f;
+                }
+
+                #block6{
+                    background-color: #b4d0e7;
+                }
+
+                #block7{
+                    background-color: #0d2481;
+                }
+
+                #block8{
+                    background-color: #ffd830;
+                }
+
+            .brandcontent{
                     display: flex;
                     padding: 5%;
-                }
+            }
