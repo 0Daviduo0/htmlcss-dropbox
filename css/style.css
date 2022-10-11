@@ -120,7 +120,7 @@
         .businesstitle{
             width: 100%;
             height: fit-content;
-            font-size: 30px;
+            font-size: 25px;
             margin-bottom: 4%;
         }
 
@@ -283,26 +283,21 @@
                     }
 
 /* Partner */
-#partner{
-    padding-bottom: 8%;
-}
-
 #imgpartner{
     width: 60%;
     height: 0;
     background-repeat: no-repeat;
     background-size: contain;
     padding: 24%;
-    border: #000 solid 1px;
+    /* border: #000 solid 1px; */
     background-image: url(../img/partner.png);
 }
-
 
     #partnerdescr{
         width: 40%;
         padding-top: 5%;
         padding-right: 10%;
-        border: #000 solid 1px;
+        /* border: #000 solid 1px; */
         display: flex;
         flex-direction: column;
     }
@@ -317,3 +312,23 @@
             padding: 3%;
             border: #000 solid 1px;
         }
+
+/* Features */
+#features{
+    flex-direction: column;
+}
+
+#featurestitle{
+    margin-bottom: 0;
+}
+.featuregallery{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 4%;
+}
+
+    .galleryelement{
+        width: calc((100% - 10px) / 3);
+        height: 400px;
+        border: #000 solid 1px;
+    }
