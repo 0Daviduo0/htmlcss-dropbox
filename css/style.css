@@ -284,7 +284,7 @@
 
 /* Partner */
 #partner{
-
+    padding-bottom: 8%;
 }
 
 #imgpartner{
@@ -292,14 +292,28 @@
     height: 0;
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 22%;
+    padding: 24%;
     border: #000 solid 1px;
     background-image: url(../img/partner.png);
 }
 
 
-#partnerdescr{
-    width: 50%;
-    height: 200px;
-    border: #000 solid 1px;
-}
+    #partnerdescr{
+        width: 40%;
+        padding-top: 5%;
+        padding-right: 10%;
+        border: #000 solid 1px;
+        display: flex;
+        flex-direction: column;
+    }
+
+        #parttext{
+            padding-top: 8%;
+            margin-bottom: 10%;
+        }
+
+        #partbutton{
+            width: fit-content;
+            padding: 3%;
+            border: #000 solid 1px;
+        }
