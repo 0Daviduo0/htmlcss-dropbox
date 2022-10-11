@@ -91,11 +91,11 @@
         .introimg{
             /* border: #000 solid 1px; */
             background-image: url(../img/jumbo.png);
-            background-size: cover;
             background-repeat: no-repeat;
-            background-position: center center;
-            width: 100%;
-            height: 500px;                   /* Debug */
+            background-size: contain;
+            width: 80%;
+            height: 0; 
+            padding: 19%;                  /* Debug */
             margin-top: 3%;    
         }
 
@@ -281,3 +281,25 @@
                         width: 50%;
                         margin-bottom: 2%;
                     }
+
+/* Partner */
+#partner{
+
+}
+
+#imgpartner{
+    width: 60%;
+    height: 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 22%;
+    border: #000 solid 1px;
+    background-image: url(../img/partner.png);
+}
+
+
+#partnerdescr{
+    width: 50%;
+    height: 200px;
+    border: #000 solid 1px;
+}
