@@ -325,6 +325,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 4%;
+    
 }
 
     .galleryelement{
@@ -347,4 +348,26 @@
 
     #costumerstitle{
         width: 50%;
+    }
+
+
+
+
+
+
+
+/* Brands */
+#brandsgallery{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    border: blueviolet solid 3px;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+    .macroblock{
+        width: calc((100% / 3));
+        height: 500px;
+        border: #000 solid 1px;
     }
