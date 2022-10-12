@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 /* Nav */
@@ -95,6 +96,11 @@
         margin-top: 13%;
         font-size: 40px
     }
+
+        a{
+            text-decoration: none;
+            color: inherit;
+        }
 
         .introimg{
             /* border: #000 solid 1px; */
@@ -488,6 +494,10 @@
                 #block8{
                     background-color: #ffd830;
                 }
+
+                    .brandsblocks:hover {
+                        box-shadow:0px 0px 0px 10px rgba(255, 255, 255, 0.559) inset;
+                    }
 
             .brandcontent{
                     display: flex;
