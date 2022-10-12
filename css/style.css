@@ -6,6 +6,16 @@
     scroll-behavior: smooth;
 }
 
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.linkblue{
+    text-decoration: underline;
+    color: blue;
+}
+
 /* Nav */
 .nav{
     width: 100%;
@@ -96,11 +106,6 @@
         margin-top: 13%;
         font-size: 40px
     }
-
-        a{
-            text-decoration: none;
-            color: inherit;
-        }
 
         .introimg{
             /* border: #000 solid 1px; */
