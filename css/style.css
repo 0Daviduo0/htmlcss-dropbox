@@ -434,11 +434,21 @@
                 position: relative;
             }
 
-            .bandsimg{
-                max-width: 70%;
-                max-height: 70%;
+            .brandsimg{
+
+                border: #0d2481 solid 5px;
+                filter: invert(1);
+                position: relative;
                 
             }
+
+                #svgbrands{
+                    position: absolute;
+                    scale: 0.5;
+                    top: 100%;
+                    left: 100%;
+                    transform: translate(-100%, -100%);
+                }
 
                 #block1{
                     background-color: #a2d39b;
