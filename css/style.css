@@ -105,7 +105,7 @@
     display: flex;
     justify-content: center;
     height: fit-content;
-    border: blueviolet solid 3px;
+    /* border: blueviolet solid 3px; */
     padding-top: 8%;
     margin-left: 20%;
     margin-right: 20%;
@@ -378,13 +378,6 @@
             margin-bottom: 0%;
         }
 
-
-
-
-
-
-
-
 /* Costumers */
 #costumers{
     flex-direction: column;
@@ -393,12 +386,6 @@
     #costumerstitle{
         width: 50%;
     }
-
-
-
-
-
-
 
 /* Brands */
 #brandsgallery{
@@ -414,7 +401,7 @@
         flex-direction: column;
         width: calc((100% / 3));
         height: 600px;
-        border: #000 solid 1px;
+        /* border: #000 solid 1px; */
     }
 
         .brandsrow{
@@ -430,7 +417,7 @@
                 align-items: center;
                 width: calc(100% / 2);
                 height: 300px;
-                border: #000 solid 1px;
+                /* border: #000 solid 1px; */
                 position: relative;
             }
 
@@ -545,4 +532,16 @@
     margin-left: 8%;
     background-color: #fff;
     color: #000;
+}
+
+/* FAQ */
+#faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-bottom: 8%;
+    width: 100;
 }
