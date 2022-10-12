@@ -413,7 +413,7 @@
         display: flex;
         flex-direction: column;
         width: calc((100% / 3));
-        height: 500px;
+        height: 600px;
         border: #000 solid 1px;
     }
 
@@ -436,18 +436,29 @@
 
             .brandsimg{
 
-                border: #0d2481 solid 5px;
+                /* border: #0d2481 solid 5px; */
                 filter: invert(1);
                 position: relative;
                 
             }
 
-                #svgbrands{
+                .svgbrands{
                     position: absolute;
                     scale: 0.5;
                     top: 100%;
                     left: 100%;
                     transform: translate(-100%, -100%);
+                }
+
+                .svgsmall{
+                    scale: 1;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+
+                .svg{
+                    scale: 0.5;
                 }
 
                 #block1{
@@ -485,5 +496,53 @@
 
             .brandcontent{
                     display: flex;
-                    padding: 5%;
+                    flex-direction: column;
+                    padding: 6%;
+                    overflow: scroll;
             }
+
+                .brandimgdescr{
+                    width: 50%;
+                    height: 0;
+                    padding-bottom: 25%;
+                    background-image: url(../img/designit.svg);
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center;
+                }
+
+                #brandsseparator{
+                    margin-top: 5%;
+                    margin-bottom: 5%;
+                }
+
+/* Get Dropbox for your Company */
+#get{
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-bottom: 8%;
+    width: 100;
+    background-color: #b4d0e7;
+}
+
+.getcont{
+    text-align: left;
+    height: fit-content;
+    width: 30%;
+    font-weight: bold;
+    font-size: 40px;
+    color: #61082b;
+}
+
+.begintrial{
+    text-align: center;
+    height: fit-content;
+    width: 15%;
+    padding: 1% 2%;
+    margin-left: 8%;
+    background-color: #fff;
+    color: #000;
+}
